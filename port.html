@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link
+      rel="stylesheet"
+      href="style1.css
+  "
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="left">Naveen</div>
+        <div class="right">
+          <ul>
+             <li><a href="">Home</a></li>
+             <li><a href="about.html">About</a></li>
+             <li><a href="cert.html">Certification</a></li>
+             <li><a href="hack.html" >Hackathons</a></li>
+             <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="firstSection">
+
+        <div class="leftSection">Hi,This is <span class="purple">naveen</span>
+         <div> a bloody developer</div>
+        <span id="element"></span>
+        </div>
+          <!-- Element to contain animated typing -->
+
+        <div class="rightSection"><img src="images/imge.webp" alt="">
+        </div>
+      </section>
+
+      <hr>
+
+      <section class="SecondSection">
+        <div>What I Have Learn So far!....</div>
+        <h1><a href="hack.html">Learning Experience</a></h1>
+        <div class="logo">
+          <img src="images/html.svg" alt="">
+          <img src="images/css.svg" alt="">
+          <img src="images/js.svg" alt="">
+          <img src="images/react.svg" alt="">
+        </div>
+        <div class="box">
+          <div class="vertical"></div>
+          <div class="vertical"></div>
+          <div class="vertical"></div>
+          <div class="vertical"></div>
+        </div>
+        <div class="cont">
+          <div class="htm">Html</div>
+          <div class="css">CSS</div>
+          <div class="js">Js</div>
+          <div class="react">React</div>
+        </div>
+        <h1>"Stay Safe 😃 Live Long 💯 Always keep Coding...💻"</h1>
+
+
+      </section>
+       
+    </main>
+    <div class="footer">
+      <div class="orglink"><img src="images/organ.png" alt=""><a href="">www.naveen.org</a></div>
+      <div class="handle">
+        <img src="images/insta.png" alt="" class="i">
+        <img src="images/linkedin.png" alt="" class="i">
+        <img src="images/youtube.png" alt="" class="i">
+      </div>
+    </div>
+      
+    <!-- Setup and start animation! -->
+ 
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+      var typed = new Typed('#element', {
+        strings: ['&amp; lover of js', ' &amp; designer'],
+        typeSpeed: 50,
+      });
+    </script>
+  </body>
+</html>
